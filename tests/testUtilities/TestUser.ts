@@ -12,6 +12,7 @@ export class TestUser {
     }
 
     onConnectionStateChanged(connectionState: HiFiConnectionStates) {
+        console.log("-----------------------------------------" + connectionState + "-----------------------------------------");
         this.connectionState = connectionState;
     }
 }
